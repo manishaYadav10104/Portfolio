@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manisha's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1><a onclick="selectSection('Manisha yadav')">Manisha Yadav</a></h1>
+        <nav>
+            <a onclick="selectSection('history')">HISTORY</a>
+            <a onclick="selectSection('project')">PROJECTS</a>
+            <a onclick="selectSection('resume')">RESUME</a>
+            <a onclick="selectSection('contact')">CONTACT</a>
+            <button id="themeToggle" style="margin-left: 20px;">🌙</button>
+
+        </nav>
+    </header>
+
+    <!-- Main Sections -->
+    <main>
+
+
+        <section id="Manisha yadav" class="section active">
+            <h2>Welcome to My Portfolio 👋</h2>
+            <p>
+                I'm <strong>Manisha Yadav</strong>, a passionate and ambitious Computer Science student with a deep
+                interest in web development and modern technologies.
+                I enjoy creating visually appealing and functional websites using HTML, CSS, and JavaScript. I’ve been
+                practicing data structures and algorithms to improve my problem-solving skills. 🚀✨
+            </p>
+        </section>
+
+        <section id="history" class="section">
+            <h2>A brief about my life in college.</h2>
+
+            <div class="history-entry">
+                <h3>Bachelor of Technology – Computer Science and Engineering</h3>
+                <p>Sage University Indore</p>
+                <span>2022 – Present</span>
+            </div>
+
+            <div class="history-entry">
+                <h3>Sage Summer Internship</h3>
+                <p>Certificate Course</p>
+                <span>2024 – 2025</span>
+            </div>
+
+            <div class="history-entry">
+                <h3>ISRO Online Course</h3>
+                <p>AI/ML for Geodata Analysis</p>
+                <span>2024 – 2025</span>
+            </div>
+
+            <div class="history-entry">
+                <h3>React JS completion Course Certificate</h3>
+                <p>Certificate</p>
+                <span>2023 – 2024</span>
+            </div>
+
+            <div class="history-entry">
+                <h3>OOPs in C++ and Basic DSA</h3>
+                <p>Self-Learning</p>
+                <span>2022 – 2023</span>
+            </div>
+        </section>
+
+
+        <section id="project" class="section">
+            <h2>Projects I have worked on.</h2>
+
+            <div class="project-card">
+                <h3><strong>🔗</strong> <a href="https://tic-toc-toeplay.netlify.app/" target="_blank">Tic-Toc-Toe</a>
+                </h3>
+                <p><strong>ⓘ</strong> Classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript.</p>
+                <p><strong>💻</strong> Tech Stack: HTML, CSS, JavaScript</p>
+                <p><strong>📅</strong> 2024</p>
+
+                <p>
+                    <i class="fab fa-github" style="margin-right: 6px;"></i>
+
+                    <a href="https://github.com/manishaYadav10104/tic-tac-toe" target="_blank">GitHub Repository</a>
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="project-card">
+                <h3><strong>🔗</strong> <a href="http://localhost/DailyExpense-System/login.php" target="_blank">Daily
+                        Expensive Management System</a>
+                </h3>
+                <p><strong>ⓘ</strong> A full-stack web application that allows users to track and manage
+                    their daily expenses. Users can add, view, filter, and delete expenses, helping them gain control
+                    over their financial habits.</p>
+
+                <p><strong>💻 Tech Stack:</strong></p>
+                <ul>
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Backend:</strong> PHP</li>
+                    <li><strong>Database:</strong> MySQL</li>
+                </ul>
+
+                <p><strong>📅</strong> 2025</p>
+                <p>
+                    <i class="fab fa-github" style="margin-right: 6px;"></i>
+                    <a href="https://github.com/manishaYadav10104/Dailyexpensive" target="_blank">GitHub Repository</a>
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="project-card">
+                <h3><strong>🔗</strong> <a href="https://astrologypredictions.netlify.app/" target="_blank">Astrology
+                        Website</a>
+                </h3>
+                <p><strong>ⓘ</strong> A user-friendly astrology platform designed to provide personalized horoscope
+                    readings, zodiac compatibility, and daily predictions. It features a beautiful UI with interactive
+                    content and accurate astrological information.</p>
+
+                <p><strong>💻</strong> Tech Stack: HTML, CSS, JavaScript</p>
+                <p><strong>📅</strong> 2025</p>
+
+                <p>
+                    <i class="fab fa-github" style="margin-right: 6px;"></i>
+                    <a href="https://github.com/manishaYadav10104/astrology" target="_blank">GitHub Repository</a>
+                </p>
+            </div>
+        </section>
+        <section id="resume" class="section">
+            <div class="resume-head">
+                <h2>Resume📄</h2>
+                <div class="resume-links">
+                    <button>
+                        <i class="fa-solid fa-download"></i>
+                        <a href="./manisha.jpg" download class="download-link">Download my Resume</a>
+                    </button>
+                </div>
+            </div>
+            <div class="resume-container">
+                <img src="./manisha.jpg" alt="Resume of Manisha Yadav">
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <h2>If you liked my portfolio, Let's Connect 🚀.
+            </h2>
+            <div class="links">
+
+
+                <div>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/manishaYadav10104" target="_blank">Github</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/manisha-yadav-9902422b7" target="_blank">linkedin</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <a href="https://x.com/ManishaYad90488" target="_blank">Twitter (X)</a>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Crafted with passion by Manisha yadav © 2025
+    </footer>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
